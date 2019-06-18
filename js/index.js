@@ -62,19 +62,18 @@ pArray.forEach(P => {
   P.addEventListener("dblclick", event => {
     P.style.color = "#A30000";
   });
-  
- });
+});
 
 textArea.forEach(ta => {
   ta.addEventListener("mouseenter", event => {
-    ta.style.textAlign = "center";  
+    ta.style.textAlign = "center";
     ta.style.backgroundColor = "#EFD28D";
     ta.style.borderRadius = "5px";
     ta.style.color = "#004777";
   });
   ta.addEventListener("mouseleave", event => {
     ta.style.backgroundColor = "#a30000";
-    ta.style.textAlign = "left"; 
+    ta.style.textAlign = "left";
     ta.style.color = "black";
   });
 });
@@ -87,7 +86,7 @@ destination.forEach(d => {
     d.style.textAlign = "center";
   });
   d.addEventListener("mouseleave", event => {
-    d.style.textAlign = "left";  
+    d.style.textAlign = "left";
     d.style.backgroundColor = "white";
     d.style.color = "black";
   });
