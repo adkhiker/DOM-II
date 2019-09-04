@@ -1,3 +1,5 @@
+Greg Poirier
+
 # DOM II - Stretch Assignment - Travelers 
 
 Topics:
